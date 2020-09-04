@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.text1{
+    margin-top: 32vh;
+    font-size: 56;
+    font-weight: bold;
+}
+
+.text2{
+    margin-top: 32vh;
+    font-size: 18;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-header {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ff9879;
+    z-index: 5 !important;
+}
+
+.pimg1{
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../Asset/Laptop\ Skin.png');
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -2
+    ;
+}
+
+.vid {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    z-index: 0 !important;
+}
+
+.vid.scale-vid{
+    transform: translateX(-50%);
+    height: 28.5%;
+}
+.pointer{
+    position: absolute;
+    bottom: 5%;
+}
+
+/*
+.vid {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) scale(3.2);
+    height: 28.5%;
+    transition: transform 1s .25s ease-in-out;
+    z-index: 0 !important;
+    will-change: transform;
+}
+
+.vid.scale-vid{
+    transform: translateX(-50%) scale(1);
+}
+*/
